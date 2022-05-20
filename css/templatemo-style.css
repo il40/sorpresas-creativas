@@ -130,7 +130,7 @@ header {
   z-index: 10;
   width: 100%;
   height: 80px;
-  background-color: rgba(150, 51, 51, 0.9);
+  background-color: #fd9398b3;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 
@@ -163,7 +163,7 @@ header {
 
 #main-nav ul {
   text-align: center;
-  background-color: rgba(150, 51, 51, 0.9);
+  background-color: #fd9398b3;
   margin-top: 79px;
   width: 100%;
 }
@@ -174,7 +174,7 @@ header {
   background-color: transparent;
 }
 #main-nav ul li a {
-  font-size: 15px;
+  font-size: 25px;
   text-transform: capitalize;
   color: #fff;
   box-shadow: none;
@@ -1023,6 +1023,10 @@ header {
     width: 21%;
   }
 
+  .slider .content-section {
+    margin-left: 7px;
+  }
+
   .responsive-nav {
     display: block;
     height: 80px;
@@ -1034,8 +1038,8 @@ header {
 
   .Modern-Slider .info {
     text-align: center;
-    right: 0px;
-    padding: 0px 30px;
+    right: 20%;
+    padding: 30px 50px;
   }
 
   .logo-resposive{
@@ -1085,8 +1089,13 @@ header {
 
 @media (max-width: 690px) {
 
+
   .section-heading p {
     position: relative;
+  }
+
+  .Modern-Slider .info {
+    right: 14%;
   }
 
   #featured {
@@ -1104,6 +1113,10 @@ header {
   #projects {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  #projects .masonry .item img{
+    width: 80%;
   }
 
   #video {
@@ -1134,4 +1147,28 @@ header {
     padding-right: 15px;
   }
 
+}
+
+
+@media (max-width: 576px){
+
+  .Modern-Slider .info {
+    right: 5%;
+    left: 5%;
+  }
+
+  .slider .content-section {
+    margin-left: 5px;
+  }
+
+  #projects .masonry .item img{
+    width: 90%;
+  }
+
+  #contact {
+    padding: 25px 25px;
+    left: 50%;
+    
+}
+  
 }
