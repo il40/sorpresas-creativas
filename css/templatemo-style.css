@@ -339,6 +339,8 @@ header {
 /* Slider Style */
 
 .slider .content-section {
+  top: -20px;
+  margin-left: 55px;
   padding-top: 0px;
   min-width: 100%;
   min-height: 100vh;
@@ -377,7 +379,7 @@ header {
   margin-bottom: 15px;
   font-size: 90px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .Modern-Slider .info p {
@@ -970,6 +972,14 @@ header {
 
 @media (max-width: 992px) {
 
+  .sidebar-navigation{
+    width: 21%;
+  }
+
+  .slider .content-section {
+    margin-left: 30px;
+  }
+
   .responsive-nav {
     display: none;
   }
@@ -990,10 +1000,28 @@ header {
     font-size: 15px;
   }
 
+  .Modern-Slider .info h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .content-section {
+    left: 49%;
+  }
+
+  #projects{
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
 }
 
 
 @media (max-width: 767px) {
+
+  .slider-navigation {
+    width: 21%;
+  }
 
   .responsive-nav {
     display: block;
