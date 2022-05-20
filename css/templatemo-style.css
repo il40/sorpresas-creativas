@@ -23,12 +23,13 @@ p {
 }
 
 .content-section {
+  background: #fff;
   padding-top: 80px;
   position: relative;
   width: 100%;
   display: inline-block;
   height: auto;
-  left: 50%;
+  left: 47%;
   text-align: center;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -193,6 +194,7 @@ header {
 /* Sidebar Style */
 
 .sidebar-navigation {
+  top: 0;
   width: 18%;
   float: left;
   height: 100%;
@@ -354,6 +356,9 @@ header {
 }
 
 .Modern-Slider .info {
+  background: #fd9398b3;
+  padding: 25px;
+  border-radius: 5px;
   text-align: right;
   position: absolute;
   z-index: 10;
@@ -370,7 +375,7 @@ header {
 .Modern-Slider .info h1 {
   margin-top: 0px;
   margin-bottom: 15px;
-  font-size: 48px;
+  font-size: 90px;
   color: #fff;
   font-weight: 700;
 }
@@ -479,6 +484,7 @@ header {
 /* Featured Style */
 
 #featured {
+  background: transparent;
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
@@ -746,6 +752,7 @@ header {
 /* Blog Style */
 
 #blog {
+  background: transparent;
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
@@ -867,7 +874,7 @@ header {
 /* Contact Style */
 
 #contact {
-  padding-top: 0px;
+  padding: 20px 20px ;
 }
 
 #contact-content {
