@@ -1199,10 +1199,16 @@ header {
     padding: 25px 25px;
     left: 50%;
     
-}
+  }
+
+  #contact-content {
+    padding: 35px 0px 10px 0px;
+  }
+
+  
   .card {
     width: 65%;
-    margin: 30px 10px;
+    margin: 20px 10px 0px 10px;
   }
   .card a {
     font-size: 20px;
