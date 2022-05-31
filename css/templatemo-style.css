@@ -577,7 +577,7 @@ header {
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(69,72,154, 0.9);
+  background-color: rgba(199, 70, 70, 0.9);
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -597,10 +597,11 @@ header {
 }
 
 #featured .item .text-content {
-  padding-top: 20px;
+  padding: 20px;
   background-color: #fff;
   position: relative;
   z-index: 10;
+  height: 250px;
 }
 
 #featured .item .text-content h4 {
@@ -1032,6 +1033,10 @@ header {
     padding-right: 65px;
   }
 
+  #featured .item .text-content {
+    height: 250px;
+  }
+
   .card {
     width: 20%;
     display: inline-block;
@@ -1074,6 +1079,10 @@ header {
 
   .logo-resposive{
     width: 25%;
+  }
+
+  #featured .item .text-content {
+    height: 250px;
   }
 
   /* .Modern-Slider .NextArrow{
@@ -1149,6 +1158,10 @@ header {
     width: 80%;
   }
 
+  #featured .item .text-content {
+    height: 190px;
+  }
+
   #video {
     padding-left: 15px;
     padding-right: 15px;
@@ -1193,6 +1206,10 @@ header {
 
   #projects .masonry .item img{
     width: 90%;
+  }
+
+  #featured .item .text-content {
+    height: 190px;
   }
 
   #contact {
